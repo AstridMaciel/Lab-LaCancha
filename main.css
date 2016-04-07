@@ -1,0 +1,50 @@
+.afuera{
+	padding: 10px;
+	background-color: green;
+	display: inline-block;
+}
+.adentro{
+	width: 500px;
+	height: 300px;
+	background-color:green;
+	border:1px solid white;
+	}
+.arco{
+	height: 100px;
+	width: 50px;
+	position: relative;
+	border: 1px solid white;
+	
+}
+.arco:first-child{
+	top:100px;
+	border-left-style: none;
+}
+
+.arco:nth-child(2){
+	left: 448px;
+	border-right-style:none;
+}
+.redondo{
+	height: 100px;
+	width: 100px;
+	border: 1px solid white;
+	border-radius: 100px;
+	position: relative;
+	left: 200px;
+	bottom:100px;
+}
+img{
+	position: absolute;
+}
+img:first-child{
+	left: 40px;
+}
+.arco:nth-child(2) img{
+	left: -30px;
+	top: 75px;
+}
+.redondo img{
+	left: 60px;
+	bottom:140px;
+}
